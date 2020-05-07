@@ -60,7 +60,7 @@ class TeamsBot(Flask):
             teams_bot_name,
             teams_bot_token,
             teams_bot_email,
-            teams_bot_token,
+            teams_bot_url,
         ):
             raise ValueError(
                 "TeamsBot requires teams_bot_name, "
